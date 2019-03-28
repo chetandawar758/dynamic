@@ -78,5 +78,5 @@ void PrintSol(int n,int m,char Path[n+1][m+1],char *A)
         PrintSol(n,m-1,Path,A);
     else 
         PrintSol(n-1,m,Path,A);
-    
+    return ;
 }
